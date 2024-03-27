@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.similar-product-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 400px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.similar-product-item-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.similar-product-item-title {
+  color: #12022f;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.similar-product-item-brand {
+  color: #616e7c;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.similar-product-item-price-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.similar-product-item-price {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 20px;
+}
+.similar-product-item-rating-holder {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 0;
+}
+.similar-product-item-rating {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.similar-product-item-star-icon {
+  width: 20px;
+  height: 20px;
+}
